@@ -1,0 +1,96 @@
+.main {
+    height: 50%;
+}
+.special {
+    /*background-color: lightblue;*/
+    flex-grow:1;
+  }
+
+.character-creation {
+    display:flex;
+    height:100%;
+    /*background-color:black;*/
+    padding:5px;
+}
+
+p {
+  color:green;
+}
+
+.leftSide {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  height: 100%
+}
+
+.leftUpper {
+    display:flex;
+    height:75%
+  }
+
+.leftUpperLeft {
+    display:flex;
+    flex-grow:1;
+  }
+
+.leftUpperRight {
+    display:flex;
+    flex-grow:1;
+    flex-direction:column;
+  }
+
+.leftLower {
+    display:flex;
+    height:25%
+  }
+
+.rightSide {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+}
+
+.skills {
+     /*background-color: #FEF65B;*/
+    flex-grow:1;
+}
+
+.perks {
+     /*background-color: #A0DB8E;*/
+    flex-grow:1;
+
+}
+
+.derived {
+    /* background-color: #b7e311;*/
+    flex-grow:1;
+    padding-right: 25px;
+
+}
+
+.help {
+    /* background-color: #A52A2A;*/
+    height:50%
+
+}
+
+.health {
+    /* background-color: #FFA500;*/
+    flex-grow:1;
+
+}
+
+.text {
+    margin:0px;
+
+}
+
+.perkDisplay {
+  display:flex;
+}
+
+.stat {
+  display:flex;
+  justify-content: space-between;
+}
